@@ -56,4 +56,4 @@ def recursive_copy(pattern, in_dir, out_dir):
     return
 
 # recursive_unzip("data/")
-# recursive_copy("acc", "data/", "final/")
+recursive_copy("accelerometer", "data/", "final/")
